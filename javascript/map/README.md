@@ -157,5 +157,5 @@ const pessoas = [
 // </div>
 ``` 
 
-## Fontes 
+## Fonte
 * https://coursework.vschool.io/array-map-exercises/
