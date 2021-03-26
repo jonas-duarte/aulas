@@ -125,7 +125,7 @@ console.log(readyToPutInTheDOM([
 // "<h1>Kayne West</h1><h2>16</h2>", 
 // "<h1>Bob Ziroll</h1><h2>100</h2>"]
 ```
-## 7. Usando seus conhecimentos de .map(), faça a seguinte lista ser exibida em uma página React
+## 7. Desafio React: Usando seus conhecimentos de .map(), faça a lista 'people' ser exibida na página abaixo
 ```html
 <!DOCTYPE html>
 <html>
