@@ -126,35 +126,59 @@ console.log(readyToPutInTheDOM([
 // "<h1>Bob Ziroll</h1><h2>100</h2>"]
 ```
 ## 7. Usando seus conhecimentos de .map(), faça a seguinte lista ser exibida em uma página React
-```javascript
-const pessoas = [
-    {
-        name: "Angelina Jolie",
-        age: 80
-    },
-    {
-        name: "Eric Jones",
-        age: 2
-    },
-    {
-        name: "Paris Hilton",
-        age: 5
-    },
-    {
-        name: "Kayne West",
-        age: 16
-    },
-    {
-        name: "Bob Ziroll",
-        age: 100
-    }
-]
+```html
+<!DOCTYPE html>
+<html>
 
-// Cada elemento pode ter o seguinte formato:
-// <div>
-//    <h1>Angelina Jolie</h1>
-//    <h2>80 anos</h2>
-// </div>
+<head>
+    <meta charset="UTF-8" />
+    <title>React Map Exercise</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const people = [
+            {
+                name: "Angelina Jolie",
+                age: 80
+            },
+            {
+                name: "Eric Jones",
+                age: 2
+            },
+            {
+                name: "Paris Hilton",
+                age: 5
+            },
+            {
+                name: "Kayne West",
+                age: 16
+            },
+            {
+                name: "Bob Ziroll",
+                age: 100
+            }
+        ]
+
+        const People = () => {
+            return <>Edit here...</>
+        }
+
+        ReactDOM.render(
+            <div><People /></div>,
+            document.getElementById('root')
+        );
+
+    </script>
+</body>
+
+</html>
 ``` 
 
 ## Fonte
