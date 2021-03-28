@@ -51,7 +51,8 @@ const pedidos = new Promise((resolve) =>
 // João comprou: Mouse, Monitor;
 ```
 
-## 3. Comprando bananas
+## 3. Comprando bananas 
+Cada cacho de banana custa 3 reais, caso você informe uma quantidade multipla de 3 e não sobre troco, a promise deve ser resolved, caso precise de troco, deve ser retornado um reject, pois o dono da venda odeia dar troco e é muito furioso quanto a isso.
 
 **Observação:** No exercício abaixo a ordem do resultado não importa, já que estamos trabalhando com funções assíncronas
 
