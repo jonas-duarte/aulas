@@ -89,7 +89,7 @@ console.log(array.sort((a,b) => a - b))
 console.log(array.sort((a,b) => b - a))
 ```
 
-```json
+```
 ------ MyArray -------
 MyArray { array: [ 3, 2, 1, 4 ] }
 ------ forEach -------
